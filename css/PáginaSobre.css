@@ -305,3 +305,561 @@ display: none;
     gap: 16px;
     margin-bottom: 24px;
 }
+
+
+
+@media screen and (min-width: 420px) and (max-width: 780px) {
+
+    header {
+        height: 120px;
+    }
+
+    footer {
+        height: 580px;
+    }
+
+    .Sec1 {
+        margin-top: 48px;
+    }
+
+    .Line {
+        width: 160px;
+        height: 4px;
+    }
+
+    .AlignHeading h1 {
+        font-size: 28px;
+    }
+
+    .InfoContato {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 90%;
+        padding: 48px 0px 48px 48px;
+        flex-direction: column;
+        gap: 16px;
+
+    }
+
+    .AlignInfo {
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+    .AlignInfo p {
+        font-size: 19px;
+    }
+
+    .Sec2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+
+    .Sec2 p {
+        margin-bottom: 40px;
+        font-size: 19px;
+        width: 70%;
+    }
+
+    .Map {
+        width: 80%;
+        height: 420px;
+    }
+
+    .NavButton {
+        padding: 16px 40px;
+        border-radius: 32px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+
+    .AlignSocials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 16px;
+        margin-top: 32px;
+    }
+
+    .Instagram {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Instagram svg {
+        width: 64px;
+        width: 64px;
+    }
+
+    .Instagram:hover {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .Facebook {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Facebook svg {
+        height: 64px;
+    }
+
+    .Facebook:hover {
+        width: 150px;
+        height: 150px;
+    }
+
+    .Whatsapp {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Whatsapp svg {
+        width: 64px;
+    }
+
+    .Whatsapp:hover {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .Email {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Email:hover {
+        width: 150px;
+        height: 150px;
+    }
+
+    .Email svg {
+        width: 64px;
+    }
+
+
+    .AlignAccordions {
+        gap: 24px;
+    }
+
+    .Accordion {
+        gap: 12px;
+        width: 500px;
+    }
+
+    .Accordion div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .Accordion div p {
+        font-size: 19px;
+    }
+
+    .Accordion div svg {
+        display: none;
+    }
+
+    .Accordion p {
+        font-size: 19px;
+    }
+
+    .Hidden {
+        display: block;
+    }
+
+    .DivideAccordions {
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 16px;
+    }
+
+    .Sec4 {
+        margin-top: 72px;
+    }
+
+}
+
+
+@media screen and (min-width: 781px) and (max-width: 1080px) {
+
+    header {
+        height: 160px;
+    }
+
+    footer {
+        height: 580px;
+    }
+
+    .Sec1 {
+        margin-top: 48px;
+    }
+
+    .Line {
+        width: 200px;
+        height: 4px;
+    }
+
+    .AlignHeading h1 {
+        font-size: 32px;
+    }
+
+    .InfoContato {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 80%;
+        padding: 48px 0px 48px 0px;
+        background-color: #F5F6F7;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        border-radius: 4px;
+        gap: 64px;
+    }
+
+    .AlignInfo {
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+    .AlignInfo p {
+        font-size: 19px;
+    }
+
+    .Sec2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+
+    .Sec2 p {
+        margin-bottom: 8px;
+        font-size: 19px;
+        width: 50%;
+    }
+
+    .Map {
+        width: 80%;
+        height: 400px;
+    }
+
+    .NavButton {
+        padding: 16px 40px;
+        border-radius: 32px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+
+    .AlignSocials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 16px;
+        margin-top: 40px;
+    }
+
+    .Instagram {
+        width: 160px;
+        height: 160px;
+    }
+
+    .Instagram svg {
+        width: 112px;
+    }
+
+    .Instagram:hover {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .Facebook {
+        width: 160px;
+        height: 160px;
+    }
+
+    .Facebook svg {
+        height: 112px;
+    }
+
+    .Facebook:hover {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Whatsapp {
+        width: 160px;
+        height: 160px;
+    }
+
+    .Whatsapp svg {
+        width: 112px;
+    }
+
+    .Whatsapp:hover {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .Email {
+        width: 160px;
+        height: 160px;
+    }
+
+    .Email:hover {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Email svg {
+        width: 112px;
+    }
+
+
+    .AlignAccordions {
+        gap: 24px;
+    }
+
+    .Accordion {
+        gap: 12px;
+        width: 80%;
+    }
+
+    .Accordion div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .Accordion div p {
+        font-size: 19px;
+    }
+
+    .Accordion div svg {
+        display: none;
+    }
+
+    .Accordion p {
+        font-size: 19px;
+    }
+
+    .Hidden {
+        display: block;
+    }
+
+    .DivideAccordions {
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 16px;
+    }
+
+    .Sec4 {
+        margin-top: 56px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1081px) {
+
+    header {
+        height: 160px;
+    }
+
+    footer {
+        height: 580px;
+    }
+
+    .Sec1 {
+        margin-top: 48px;
+    }
+
+    .Line {
+        width: 200px;
+        height: 4px;
+    }
+
+    .AlignHeading h1 {
+        font-size: 32px;
+    }
+
+    .InfoContato {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 760px;
+        padding: 48px 0px 48px 0px;
+        background-color: #F5F6F7;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        border-radius: 4px;
+        gap: 64px;
+    }
+
+    .AlignInfo {
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+    .AlignInfo p {
+        font-size: 19px;
+    }
+
+    .Sec2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+
+    .Sec2 p {
+        margin-bottom: 8px;
+        font-size: 19px;
+        width: 50%;
+    }
+
+    .Map {
+        width: 65%;
+        height: 420px;
+    }
+
+    .NavButton {
+        padding: 16px 40px;
+        border-radius: 32px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+
+    .AlignSocials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 16px;
+        margin-top: 32px;
+    }
+
+    .Instagram {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Instagram svg {
+        width: 144px;
+    }
+
+    .Instagram:hover {
+        width: 240px;
+        height: 240px;
+    }
+
+
+    .Facebook {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Facebook svg {
+        height: 144px;
+    }
+
+    .Facebook:hover {
+        width: 240px;
+        height: 240px;
+    }
+
+    .Whatsapp {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Whatsapp svg {
+        width: 144px;
+    }
+
+    .Whatsapp:hover {
+        width: 240px;
+        height: 240px;
+    }
+
+
+    .Email {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Email:hover {
+        width: 240px;
+        height: 240px;
+    }
+
+    .Email svg {
+        width: 144px;
+    }
+
+
+    .AlignAccordions {
+        gap: 24px;
+    }
+
+    .Accordion {
+        gap: 12px;
+        width: 500px;
+    }
+
+    .Accordion div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .Accordion div p {
+        font-size: 19px;
+    }
+
+    .Accordion div svg {
+        display: none;
+    }
+
+    .Accordion p {
+        font-size: 19px;
+    }
+
+    .Hidden {
+        display: block;
+    }
+
+    .DivideAccordions {
+        flex-direction: row;
+        gap: 24px;
+        margin-top: 16px;
+    }
+
+    .Sec4 {
+        margin-top: 72px;
+    }
+
+
+}

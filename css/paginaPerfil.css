@@ -64,11 +64,20 @@ footer {
     align-items: start;
     justify-content: start;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
     width: 320px;
-    padding: 40px 0px 40px 0px;
+    padding: 40px 0px 40px 24px;
     background-color: #F5F6F7;
     border-radius: 4px;
+}
+
+.DivideInfo
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .AlignInfo {
@@ -77,25 +86,10 @@ footer {
     justify-content: start;
     flex-direction: column;
     gap: 4px;
-    padding-left: 32px;
 }
 
 .AlignInfo :first-child {
     font-weight: 600;
-}
-
-.Sec2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 24px;
-    margin-bottom: 48px;
-}
-
-.Sec2 p {
-    margin-bottom: 8px;
-    width: 85%;
 }
 
 .NavButton {
@@ -121,4 +115,192 @@ footer {
 .ButtonProductsList {
     align-self: center;
     margin-top: 8px;
+}
+
+
+.Sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.Sec2 p {
+    margin-bottom: 8px;
+    width: 85%;
+}
+
+@media screen and (min-width: 420px) and (max-width: 780px){
+
+    .InfoContato {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 75%;
+        padding: 48px 0px 48px 0px;
+        background-color: #F5F6F7;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 4px;
+        gap: 16px;
+    }
+
+    .DivideInfo
+    {
+        gap: 16px;
+    }
+
+    .AlignInfo {
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+    .AlignInfo p{
+        font-size: 16px;
+    }
+
+    .Sec2 {
+        gap: 24px;
+        margin-bottom: 64px;
+    }
+    
+    .Sec2 p {
+        margin-bottom: 8px;
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .NavButton {
+        padding: 16px 40px;
+        border-radius: 32px;
+        font-size: 16px;
+    }    
+}
+
+@media screen and (min-width: 780) and (max-width: 1080px){
+    header {
+        height: 120px;
+    }
+
+    footer {
+        height: 490px;
+    }
+
+    .Line
+    {
+        width: 200px;
+        height: 4px;
+    }
+
+    .AlignHeading h1 {
+        font-size: 28px;
+    }
+
+    .InfoContato {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 80%;
+        padding: 48px 0px 48px 0px;
+        background-color: #F5F6F7;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        border-radius: 4px;
+        gap: 64px;
+    }
+
+    .AlignInfo {
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+    .AlignInfo p{
+        font-size: 16px;
+    }
+
+    .Sec2 {
+        gap: 24px;
+        margin-bottom: 64px;
+    }
+    
+    .Sec2 p {
+        margin-bottom: 8px;
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .NavButton {
+        padding: 16px 40px;
+        border-radius: 32px;
+        font-size: 16px;
+    }    
+}
+
+
+@media screen and (min-width: 1080px) {
+
+    header {
+        height: 160px;
+    }
+
+    footer {
+        height: 580px;
+    }
+
+    .Line
+    {
+        width: 200px;
+        height: 4px;
+    }
+
+    .AlignHeading h1 {
+        font-size: 32px;
+    }
+
+    .InfoContato {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 760px;
+        padding: 48px 0px 48px 0px;
+        background-color: #F5F6F7;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        border-radius: 4px;
+        gap: 64px;
+    }
+
+    .AlignInfo {
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+    .AlignInfo p{
+        font-size: 19px;
+    }
+
+    .Sec2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+    
+    .Sec2 p {
+        margin-bottom: 8px;
+        font-size: 19px;
+        width: 50%;
+    }
+
+    .NavButton {
+        padding: 16px 40px;
+        border-radius: 32px;
+        font-size: 19px;
+        font-weight: 500;
+    }    
+    
 }
