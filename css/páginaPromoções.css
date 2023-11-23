@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+h6
+{
+    color: #0F343A;
+    width: 270px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    width: 274px;
+    text-align: center;
+    font-size: 13px;
+}
+
+header
+{
+    height: 80px;
+    width: 100%;
+    background-color: #666666;
+}
+
+footer
+{
+    height: 488px;
+    width: 100%;
+    background-color: #666666;
+}
+
+.line
+{
+    background-color: #0DCAF1;
+    width: 120px;
+    height: 3px;
+    border-radius: 100px;
+}
+
+.TextHighlight
+{
+    color: #04829B;
+}
+
+.img1
+{
+    width: 280px;
+    height: 190px;
+    border-radius: 12px;
+}
+
+.MainSection
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.navButton
+{
+    padding: 12px 40px;
+    border-radius: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #0DCAF1;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .25s;
+    border: solid;
+}
+
+.navButton:hover
+{
+    color: #0DCAF1;
+    background-color: white;
+    border: 1px solid #0DCAF1;
+}
+
+.img2
+{
+    width: 280px;
+    height: 424px;
+}
+
+.LastSection
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.SixtySection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 40px;
+
+}
+
+.SixtySection .line
+{
+    margin-top: 12px;
+    margin-bottom: 32px;
+
+}
+
+
+.GridProducts
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ProductCard
+{
+    border-radius: 6px;
+    background-color: white;
+    border-color: #DEE3E4;
+    border-style: solid;
+    border-width: 1px;
+    width: 130px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.AlignLeft
+{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    flex-direction: column;
+}
+
+
+.ProductTitle
+{
+font-size: 13px;
+font-family: 'Merriweather', serif;
+font-weight: bold;
+color: #0F343A;
+width: auto;
+}
+
+.BeforePrice
+{
+    font-size: 11px;
+    font-weight: 300;
+    text-decoration: line-through;
+    color: #587276;
+    width: auto;
+}
+
+.AfterPrice
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #04829B;
+width: auto;
+
+}
+
+.Avaliation
+{
+    display: flex;
+    flex-direction: row;
+    width: 96px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ProductImage
+{
+    width: 106px;
+    height: 106px;
+}
+
+.DiscountValue
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0DCAF1;
+    font-weight: 500;
+    border-radius: 32px;
+    width: 42px;
+    height: 24px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.DiscountValue p
+{    
+    color: white;
+    font-size: 12px;
+}
+
+.PromoSection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+
+.ProductCardSP
+{
+    border-radius: 6px;
+    background-color: white;
+    border-color: #DEE3E4;
+    border-style: solid;
+    border-width: 1px;
+    width: 180px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 14px;
+    gap: 4px;
+}
+
+.AlignLeftSP
+{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    flex-direction: column;
+}
+
+
+.ProductTitleSP
+{
+font-size: 16px;
+font-family: 'Merriweather', serif;
+font-weight: bold;
+color: #0F343A;
+width: auto;
+}
+
+.BeforePriceSP
+{
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: line-through;
+    color: #587276;
+    width: auto;
+}
+
+.AfterPriceSP
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #04829B;
+width: auto;
+
+}
+
+.AvaliationSP
+{
+    display: flex;
+    flex-direction: row;
+    width: 112px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AvaliationSP img
+{
+    width: 15px;
+    height: 14px;
+}
+
+.ProductImageSP
+{
+    width: 156px;
+    height: 156px;
+}
+
+.DiscountValueSP
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0DCAF1;
+    font-weight: 500;
+    border-radius: 32px;
+    width: 42px;
+    height: 24px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.DiscountValueSP p
+{    
+    color: white;
+    font-size: 12px;
+}
+
+.ImageCardSecondary
+{
+    border-color: #B1BDBF;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    height: 130px;
+    background-image: url("../Assets/ImagensDosProdutos/AnelCategoria.png");
+    background-color: white;
+}
+
+.AlignImages
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+}

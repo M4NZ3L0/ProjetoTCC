@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    text-align: center;
+    font-size: 16px;
+}
+
+header
+{
+    height: 80px;
+    width: 100%;
+    background-color: #666666;
+}
+
+footer
+{
+    height: 488px;
+    width: 100%;
+    background-color: #666666;
+}
+
+.Line
+{
+    background-color: #0DCAF1;
+    width: 120px;
+    height: 3px;
+    border-radius: 100px;
+}
+
+.AlignHeading
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.AlignHeading h1
+{
+    text-align: center;    
+    color: #0F343A;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.Sec1
+{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;    
+}
+
+.InfoContato
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 16px;
+    width: 320px;
+    padding: 32px 0px 32px 16px;
+    background-color: #F5F6F7;
+    border-radius: 4px;
+}
+
+.AlignInfo
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.AlignInfo :first-child
+{
+    font-weight: 600;
+}
+
+.Sec2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-bottom: 56px;
+}
+
+.Sec2 p
+{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 80%;
+}
+
+.Map
+{
+ width: 310px;
+ height: 310px;
+}
+
+.Sec3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.AlignSocials
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 85%;
+    margin-top: 32px;    
+}
+
+.Instagram
+{
+    width: 72px;
+    height: 72px;
+    border-radius: 4px;
+    background-color: #C241A6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+
+.Instagram svg
+{
+    width: 48px;
+    fill: white;
+}
+
+.Instagram:hover
+{
+    width: 88px;
+    height: 88px;
+    background-color: #e065c6;
+    box-shadow: rgb(136, 136, 136) 0px 4px 8px;
+}
+
+
+.Facebook
+{
+    width: 72px;
+    height: 72px;
+    border-radius: 4px;
+    background-color: #1F3689;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+
+.Facebook svg
+{
+    height: 48px;
+    fill: white;
+}
+
+.Facebook:hover
+{
+    width: 88px;
+    height: 88px;
+    background-color: #3c5bcc;
+    box-shadow: rgb(136, 136, 136) 0px 4px 8px;
+}
+
+.Whatsapp
+{
+    width: 72px;
+    height: 72px;
+    border-radius: 4px;
+    background-color: #45CF6C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+
+.Whatsapp svg
+{
+    width: 48px;
+    fill: white;
+}
+
+.Whatsapp:hover
+{    
+    width: 88px;
+    height: 88px;
+    background-color: #5feb87;
+    box-shadow: rgb(136, 136, 136) 0px 4px 8px;
+}
+
+
+.Email
+{
+    width: 72px;
+    height: 72px;
+    border-radius: 4px;
+    background-color: #BE3838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+
+.Email:hover
+{
+    width: 88px;
+    height: 88px;
+    background-color: #e24a4a;
+    box-shadow: rgb(136, 136, 136) 0px 4px 8px;
+}
+
+.Email svg
+{
+    width: 48px;
+    fill: white;
+}
+
+.Sec4
+{
+    margin-bottom: 48px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.AlignAccordions
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Accordion
+{
+    background-color: #F5F6F7;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    gap: 8px;
+    width: 280px;
+    padding: 24px 0;
+    transition: .2s;
+}
+
+.Accordion div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.Accordion div p
+{
+    font-weight: 600;
+    font-size: 16px;
+    color: #4B676C;
+}
+
+.Accordion div svg
+{
+    width: 16px;
+    color: #4B676C;
+}
+
+.Accordion p
+{
+    font-size: 16px;
+    width: 80%;
+    color: #677F83;
+    text-align: left;
+}
+
+.Hidden
+{
+display: none;
+}
+
+.DivideAccordions
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
